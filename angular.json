@@ -15,7 +15,9 @@
       },
       "architect": {
         "build": {
+  
           "builder": "@angular-devkit/build-angular:browser",
+          
           "options": {
             "outputPath": "dist/guessthenumber",
             "index": "src/index.html",
@@ -27,6 +29,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css", 
               "src/styles.css"
             ],
             "scripts": []
